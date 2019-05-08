@@ -1,0 +1,96 @@
+% Created 2019-05-08 Wed 19:33
+% Intended LaTeX compiler: pdflatex
+\documentclass[12pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[czech, ]{babel}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage[hidelinks]{hyperref}
+\usepackage{csquotes}
+\usepackage{tabularx}
+\MakeOuterQuote{"}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+\usepackage[backend=bibtex,citestyle=authoryear]{biblatex}
+\addbibresource{~/OneDrive/Orgmode/Papers/references.bib}
+
+
+\DeclareUnicodeCharacter{00A0}{~}
+\usepackage{tikz}
+\usetikzlibrary{mindmap}
+% \addbibresource{./references.bib} % pro pouziti lokalni slozky se zdroji
+\author{Matěj Haša, Vít Chrubasík, Marek Štěpán}
+\date{Květen 2019}
+\title{Projekt: Státní maturita s Khan Academy\\\medskip
+\large \includegraphics[width=\linewidth]{./images/skola_logo.png} Seminární práce}
+\hypersetup{
+ pdfauthor={Matěj Haša, Vít Chrubasík, Marek Štěpán},
+ pdftitle={Projekt: Státní maturita s Khan Academy},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.2.3)}, 
+ pdflang={Czech}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+\thispagestyle{empty}
+
+
+
+\chapter{Předmluva}
+\label{sec:orgc278236}
+
+\chapter{Závěr}
+\label{sec:org98b5037}
+\chapter{Identifikační listina}
+\label{sec:org754ac0a}
+\chapter{Logický rámec}
+\label{sec:orgd71be65}
+\chapter{analýza SWOT}
+\label{sec:org4a8c6a8}
+\chapter{Myšlenková mapa}
+\label{sec:orge54880c}
+\begin{tikzpicture}[mindmap, grow cyclic, every node/.style=concept, concept color=blue!40, 
+	level 1/.append style={level distance=4cm,sibling angle=60},
+	level 2/.append style={level distance=3cm,sibling angle=45},]
+
+\node{Projekt}
+child { node {Najít učitele/lektory} [concept color=red!60]
+	child { node {Neschopní, neochotní pracovníci}}
+}
+child { node {Technická implementace} [clockwise from=45, concept color=red!60]
+	child { node {Špatné testování}}
+}
+child { node {Statistické vyhodnocení úspěšnosti} [clockwise from=45, concept color=red!60]
+	child { node {Statisticky nehodnotný vzorek}}
+}
+child { node {Vytvoření osnovy} [concept color=red!60]
+	child { node {Změna osnov maturity}}
+}
+child { node {Domluva s Khan Academy} [concept color=red!60]
+	child { node {Neshoda}}
+}
+child { node {Vypracování materiálů} [concept color=red!60]
+	child { node {Chyby v materiálech}}
+};
+
+\end{tikzpicture}
+
+
+
+\chapter{MS Project}
+\label{sec:orgb9893ea}
+\end{document}
