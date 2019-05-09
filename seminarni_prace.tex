@@ -1,4 +1,4 @@
-% Created 2019-05-08 Wed 20:00
+% Created 2019-05-09 Thu 13:28
 % Intended LaTeX compiler: pdflatex
 \documentclass[12pt, a4paper]{report}
 \usepackage[utf8]{inputenc}
@@ -51,20 +51,82 @@
 
 
 \chapter{Úvod}
-\label{sec:org363e3db}
+\label{sec:org9e7b5df}
 V této seminární práci se budeme snažit co nejvěrněji uvést do praxe nabyté vědomosti, získané z hodin kurzu Projektové řízení A, které se týkají úvodní fáze projektu. V této fázi se především projekt plánuje, analyzuje a ověřuje se, jestli je proveditelný v kontextu našich možných zdrojů, efektivní etc. Z tohoto důvodu jsme práci rozdělili do několika kapitol, jak můžete vidět v obsahu v následující sekci. 
 
-Náš fiktivní projekt má za cíl implementaci výukových materiálů pro českou státní maturitu do již existující online vzdělávací platformy Khan Academy. Jak už název napovídá, jedná se o online výukovou službu, dostupnou na internetové síti. V aktuálním řešení (Květen 2019) jsou dostupné kurzy z většiny vědních oborů jako např. matematiky, biologie, chemie, fyziky, historie etc. Khan Academy je dostupná i v českém jazyce. S kolegy bychom chtěli vytvořit projekt, jehož obsahem bude rozšíření výukových materiálů na verzi s českou jazykovou mutací a to o výukové materiály pro českou státní maturitu.
-\chapter{Identifikační listina projektu}
-\label{sec:orgb803dc7}
+Náš fiktivní projekt má za cíl implementaci výukových materiálů pro českou státní maturitu do již existující online vzdělávací platformy Khan Academy. Jak už název napovídá, jedná se o online výukovou službu, dostupnou na internetové síti. V aktuálním řešení (Květen 2019) jsou dostupné kurzy z většiny vědních oborů jako např. matematiky, biologie, chemie, fyziky, historie etc. Khan Academy je dostupná i v českém jazyce. S kolegy bychom chtěli vytvořit projekt, jehož obsahem bude rozšíření výukových materiálů na verzi s českou jazykovou mutací a to o výukové materiály pro českou státní maturitu z matematiky.
 \chapter{Identifikační listina}
-\label{sec:org08a7d98}
+\label{sec:orgd6fca93}
 \chapter{Logický rámec}
-\label{sec:orgb9e6b0d}
-\chapter{SWOT analýza}
-\label{sec:org551b973}
+\label{sec:org6dcf399}
+
+\begin{table}[htbp]
+\caption{\textbf{Logický rámec}}
+\centering
+\begin{tabularx}{\textwidth}{XXXX}
+Sloupec intervencí & Objektivně měřitelný ukazatel & Zdroje informací k ověření & Rizika / předpoklady (vnější)\\
+\hline
+Zvýšit úspěšnost u státní maturity z matematiky & Absolventi kurzu & Dotazníky, výsledky absolventů & -\\
+\hline
+Poskytnutí možnosti dobré přípravy ke zkoušce & Absolventi kurzu & Statistické údaje & Správně sestavený kurz, který se osvědčil v dobré přípravě studentů\\
+\hline
+Sekce Maturita na na české Khan Academy & Beta-testování, testovací a  kontrolní skupina & reporty z testování & Validní testovací scénáře, úspěšná fáze testování, statisticky významné zlepšení testovací skupiny\\
+\hline
+Návrh, implementace, testování, nasazení, údržba & Lidská práce, know-how, hardware, technologie, energie & Vedoucí pracovníci, road map, účetní výkazy & Správná analýza, kvalitní vývojová platforma, dobře fungující tým\\
+\hline
+ &  &  & Svolení k realizaci projektu ze strany Khan Academy\\
+\end{tabularx}
+\end{table}
+
+\chapter{analýza SWOT}
+\label{sec:org2d15258}
+\begin{table}[htbp]
+\caption{SWOT analýza}
+\centering
+\begin{tabularx}{\textwidth}{Xrrr}
+Položka & Váha & Hodnocení & Hodnota\\
+\hline
+\textbf{Silné stránky} &  &  & \\
+Materiálová nenáročnost & 10 & 2 & 0.2\\
+Veřejně prospěšná činnost & 20 & 3 & 0.6\\
+Originalita & 30 & 5 & 1.5\\
+Implementace do zaběhnutého systému & 40 & 5 & 2.\\
+\hline
+\textbf{Silné stránky celkem} & 100 &  & 4.3\\
+\hline
+\textbf{Slabé stránky} &  &  & \\
+Malý tým & 12 & 4 & -0.48\\
+Nově sestavený tým & 20 & 1 & -0.2\\
+Nizký rozpočet & 33 & 2 & -0.66\\
+Málo praktických zkušeností & 35 & 3 & -1.05\\
+\hline
+\textbf{Slabé stránky celkem} & 100 &  & -2.39\\
+\hline
+\textbf{Příležitosti} &  &  & \\
+Dotace & 25 & 2 & 0.5\\
+Dobrovolníci & 47 & 4 & 1.88\\
+Zvýšení poptávky & 12 & 1 & 0.12\\
+Nefinanční příspěvky & 16 & 3 & 0.48\\
+\hline
+\textbf{Příležitosti celkem} & 100 &  & 2.98\\
+\hline
+\textbf{Hrozby} &  &  & \\
+Změní se osnovy maturity & 35 & 3 & -1.05\\
+Konkurence & 6 & 1 & -0.06\\
+Odmítnutí návrhu implementace & 40 & 3 & -1.2\\
+Zrušení státní maturity & 19 & 1 & -0.19\\
+\hline
+\textbf{Hrozby celkem} & 100 &  & -2.5\\
+\hline
+\textbf{Interní faktory} &  &  & 1.91\\
+\textbf{Externí faktory} &  &  & 0.48\\
+\hline
+\textbf{Závěr} &  &  & \textbf{2.39}\\
+\end{tabularx}
+\end{table}
+
 \chapter{Myšlenková mapa}
-\label{sec:org7efa980}
+\label{sec:orgc2396da}
 \begin{tikzpicture}[mindmap, grow cyclic, every node/.style=concept, concept color=blue!40, 
 	level 1/.append style={level distance=4cm,sibling angle=60},
 	level 2/.append style={level distance=3cm,sibling angle=45},]
@@ -92,10 +154,11 @@ child { node {Vypracování materiálů} [concept color=red!60]
 \end{tikzpicture}
 
 
+
 \chapter{MS Project}
-\label{sec:org3db359f}
+\label{sec:org531f88f}
 \chapter{Budoucí vývoj}
-\label{sec:orgf5bae8a}
+\label{sec:orgfa36b61}
 \chapter{Závěr}
-\label{sec:org338994c}
+\label{sec:orge5acd70}
 \end{document}

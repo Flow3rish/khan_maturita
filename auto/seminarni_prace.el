@@ -5,12 +5,12 @@
                      '(("report" "12pt" "a4paper")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("inputenc" "utf8") ("fontenc" "T1") ("babel" "czech" "") ("ulem" "normalem") ("hyperref" "hidelinks") ("biblatex" "backend=bibtex" "citestyle=authoryear")))
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
@@ -38,15 +38,14 @@
     "biblatex"
     "tikz")
    (LaTeX-add-labels
-    "sec:org363e3db"
-    "sec:orgb803dc7"
-    "sec:org08a7d98"
-    "sec:orgb9e6b0d"
-    "sec:org551b973"
-    "sec:org7efa980"
-    "sec:org3db359f"
-    "sec:orgf5bae8a"
-    "sec:org338994c")
+    "sec:org9e7b5df"
+    "sec:orgd6fca93"
+    "sec:org6dcf399"
+    "sec:org2d15258"
+    "sec:orgc2396da"
+    "sec:org531f88f"
+    "sec:orgfa36b61"
+    "sec:orge5acd70")
    (LaTeX-add-bibliographies
     "~/OneDrive/Orgmode/Papers/references"))
  :latex)
