@@ -37,18 +37,27 @@
     "titlesec"
     "biblatex")
    (LaTeX-add-labels
-    "sec:org3f72f3c"
-    "sec:org8360286"
-    "sec:org801389c"
-    "sec:org455a7dc"
+    "sec:org0076be4"
+    "sec:org4120916"
+    "quote:khan"
+    "sec:org88acbf5"
+    "sec:org11ba50a"
+    "sec:org2057d4d"
+    "sec:org84a9c4d"
+    "sec:org8bbf97d"
     "tab:swot"
-    "sec:orgcabfeb6"
+    "sec:org0c85e58"
     "fig:myslenkova_mapa"
-    "sec:org4918916"
-    "sec:org5e23070"
-    "sec:orge5816cf"
-    "sec:org2ad0c11"
-    "sec:org6851c0b")
+    "sec:org33b4bba"
+    "sec:org7ea932d"
+    "tab:wbs1"
+    "tab:wbs2"
+    "sec:orgf54512f"
+    "eq:CI"
+    "sec:org84b18a8"
+    "sec:orgb0a4513"
+    "sec:org7d7b1d0"
+    "sec:org9de7726")
    (LaTeX-add-bibliographies
     "~/OneDrive/Orgmode/Papers/references"))
  :latex)

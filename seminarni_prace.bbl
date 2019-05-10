@@ -16,5 +16,46 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{ms_project_soubor}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{howpublished}{Microsoft Project Document}
+    \field{note}{Elektronická příloha}
+    \field{title}{KhanAcademyProject.mpp}
+  \endentry
+
+  \entry{khan_ted_mastery}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Dostupné z YouTube: https://youtu.be/-MTRxRO5SRA}
+    \field{title}{Let's teach for mastery -- not test scores | Sal Khan}
+    \field{year}{2016}
+  \endentry
+
+  \entry{khan_ted_historie}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Dostupné z YouTube:
+  https://www.youtube.com/watch?v=nTFEUsudhfs}
+    \field{title}{Let's use video to reinvent education | Salman Khan}
+    \field{year}{2011}
+  \endentry
+
+  \entry{khan_academy_supp}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{Dostupné z Webu:
+  https://www.khanacademy.org/about/our-supporters}
+    \field{title}{Web khanacademy.org, sekce Our Supporters}
+  \endentry
+\enddatalist
 \endinput
