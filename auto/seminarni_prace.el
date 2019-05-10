@@ -35,17 +35,20 @@
     "tabularx"
     "setspace"
     "titlesec"
-    "biblatex"
-    "tikz")
+    "biblatex")
    (LaTeX-add-labels
-    "sec:org4be1668"
-    "sec:org35d7906"
-    "sec:org7f8850c"
-    "sec:org3e7dd03"
-    "sec:org39bbf51"
-    "sec:org90079c1"
-    "sec:org80a4ee9"
-    "sec:org79e1146")
+    "sec:org3f72f3c"
+    "sec:org8360286"
+    "sec:org801389c"
+    "sec:org455a7dc"
+    "tab:swot"
+    "sec:orgcabfeb6"
+    "fig:myslenkova_mapa"
+    "sec:org4918916"
+    "sec:org5e23070"
+    "sec:orge5816cf"
+    "sec:org2ad0c11"
+    "sec:org6851c0b")
    (LaTeX-add-bibliographies
     "~/OneDrive/Orgmode/Papers/references"))
  :latex)

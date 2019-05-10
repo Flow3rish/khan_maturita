@@ -1,18 +1,22 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {czech}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}\IeC {\'U}vod}{2}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}\IeC {\'U}vod}{2}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Identifika\IeC {\v c}n\IeC {\'\i } listina}{3}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Identifika\IeC {\v c}n\IeC {\'\i } listina}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Logick\IeC {\'y} r\IeC {\'a}mec}{4}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Logick\IeC {\'y} r\IeC {\'a}mec}{4}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}anal\IeC {\'y}za SWOT}{6}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}SWOT anal\IeC {\'y}za}{5}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}My\IeC {\v s}lenkov\IeC {\'a} mapa}{9}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}My\IeC {\v s}lenkov\IeC {\'a} mapa}{8}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}MS Project}{11}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}MS Project}{9}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Budouc\IeC {\'\i } v\IeC {\'y}voj}{12}{chapter.7}% 
+\contentsline {section}{\numberline {6.1}Kritick\IeC {\'a} cesta}{9}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Z\IeC {\'a}v\IeC {\v e}r}{13}{chapter.8}% 
+\contentsline {section}{\numberline {6.2}Stakeholde\IeC {\v r}i}{10}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Budouc\IeC {\'\i } v\IeC {\'y}voj}{11}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Z\IeC {\'a}v\IeC {\v e}r}{12}{chapter.8}
