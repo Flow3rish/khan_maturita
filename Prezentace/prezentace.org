@@ -1,0 +1,81 @@
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+TITLE: Khan Academy | Projekt Státní maturita
+#+AUTHOR: Vít Chrubasík, Matěj Haša, Marek Štěpán
+#+DATE: Květen 2019
+#+OPTIONS: num:nil author:nil toc:nil reveal_title_slide:nil
+#+REVEAL_THEME: white
+#+REVEAL_TRANS: concave
+
+#+REVEAL_PREAMBLE: <div style="text-align: right; margin-top: 10px;"> <img src="./skola_logo.png" alt="VŠB EKF" height="40vh;" style="position: auto; float: right; margin-left: 10px; margin-right: 10px;"><img src="./LOGO2.png" alt="Khan Academy Státní Maturita Logo" height="40vh;" style="position: auto; float: right; margin-left: 10; margin-right: 10px;"><img src="./khan_academy_hlavicka.png" alt="Khan Academy Logo" height="40vh;" style="position: auto; float: right; margin-left: 10; margin-right: 10px;"> </div>
+
+* [[./LOGO2.png]]
+* Co je Khan Academy?
+** [[https://www.youtube.com/watch?v=-MTRxRO5SRA][Let's teach for mastery -- not test scores]]
+* Problém
+* Kdo jsme my?
+** 
+Vít Chrubasík
+
+Matěj Haša
+
+Marek Štěpán
+
+* Jak je projekt proveditelný?
+** 
+| Položka                             | Váha | Hodnocení | Hodnota |
+| *Silné stránky*                     |      |           |         |
+| Materiálová nenáročnost             |   10 |         2 |     0.2 |
+| Veřejně prospěšná činnost           |   20 |         3 |     0.6 |
+| Originalita                         |   30 |         5 |     1.5 |
+| Implementace do zaběhnutého systému |   40 |         5 |      2. |
+| *Silné stránky celkem*              |  100 |           |     4.3 |
+**  
+| Položka                             | Váha | Hodnocení | Hodnota |
+| *Silné stránky*                     |      |           |         |
+| *Slabé stránky*                     |      |           |         |
+| Malý tým                            |   12 |         4 |   -0.48 |
+| Nově sestavený tým                  |   20 |         1 |    -0.2 |
+| Nizký rozpočet                      |   33 |         2 |   -0.66 |
+| Málo praktických zkušeností         |   35 |         3 |   -1.05 |
+| *Slabé stránky celkem*              |  100 |           |   -2.39 |
+** 
+| Položka                             | Váha | Hodnocení | Hodnota |
+| *Silné stránky*                     |      |           |         |
+| *Příležitosti*                      |      |           |         |
+| Dotace                              |   25 |         2 |     0.5 |
+| Dobrovolníci                        |   47 |         4 |    1.88 |
+| Zvýšení poptávky                    |   12 |         1 |    0.12 |
+| Nefinanční příspěvky                |   16 |         3 |    0.48 |
+| *Příležitosti celkem*               |  100 |           |    2.98 |
+** 
+| Položka                             | Váha | Hodnocení | Hodnota |
+| *Silné stránky*                     |      |           |         |
+| *Hrozby*                            |      |           |         |
+| Změní se osnovy maturity            |   35 |         3 |   -1.05 |
+| Konkurence                          |    6 |         1 |   -0.06 |
+| Odmítnutí návrhu implementace       |   40 |         3 |    -1.2 |
+| Zrušení státní maturity             |   19 |         1 |   -0.19 |
+| *Hrozby celkem*                     |  100 |           |    -2.5 |
+** Shrnutí 
+ | Položka                             | Váha | Hodnocení | Hodnota |
+ | *Silné stránky*                     |      |           |         |
+ | *Interní faktory*                   |      |           |    1.91 |
+ | *Externí faktory*                   |      |           |    0.48 |
+ | *Závěr*                             |      |           |  *2.39* |
+** [[./myslenkova_mapa.png]]
+* Organizační plán
+** 
+Sestavení týmu → Vytvoření osnovy → Vypracování studijních materiálů → Integrace do platformy Khan Academy → Testování → Vyhodnocení
+* Budoucí vývoj
+** 
+Budoucí vývoj bude ovlivněn úspěšností našeho projektu a další spoluprácí s Khan Academy
+** Rozšíření a nabízení vzdělávání pro kurzy a certifikáty (First, ISTQB)
+- Konkurenční výhoda oproti knihám
+- Nová klientela, nové segmenty
+- Nutnost externích odborníků
+** Rozšířená příprava i pro ostatní předměty, které jsou obsahem české státní maturitní zkoušky
+- V tu dobu budeme mít zkušenosti a hotovou jednu implementaci
+- Rozšířená klientela
+- Nutnost externích pracovínků
+
+* Slovo závěrem...
